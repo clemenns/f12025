@@ -1,0 +1,116 @@
+body {
+    background-color:  #cecccc;
+    color: #000000;
+    text-align: justify;
+}
+
+/* img {
+    display: flex;
+
+} */
+
+ul {
+    margin-left: 3%;
+    list-style: square inside;
+    /* border:#000000 double 5px; */
+
+}
+
+a{
+    cursor:grabbing;
+}
+
+a:hover{
+    background-color: #9c9a9d;
+    color: rgb(93, 92, 142);
+}
+
+
+.titulo-f1 {
+    /* border: double 7px #4d070b; */
+    color: #000000;
+    text-align: center;
+}
+
+.info-2025 {
+    margin: 20px 0 20px 0;
+    text-align: center;
+    color: #000000;
+}
+.f1-75{
+    height: 350px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.texto-intro {
+    margin: 1%;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.pilotos-grid {
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.RBR {
+   color: #262626;
+   text-align: center;
+   font-size: 18px;
+   list-style: none;
+}
+
+.ferrari {
+    color: #262626;
+    text-align: center;
+    font-size: 18px;
+    list-style: none;
+ }
+
+ .mclaren {
+    color: #262626;
+    text-align: center;
+    font-size: 18px;
+    list-style: none;
+ }
+
+ .alpine {
+    color: #262626;
+    text-align: center;
+    font-size: 18px;
+    list-style: none;
+ }
+
+ .haas {
+    color: #262626;
+    text-align: center;
+    font-size: 18px;
+    list-style: none;
+ }
+
+ .racing-bulls {
+    color: #262626;
+    text-align: center;
+    font-size: 18px;
+    list-style: none;
+ }
+
+ .williams {
+    color: #262626;
+    text-align: center;
+    font-size: 18px;
+    list-style: none;
+ }
+
+ .sauber {
+    color: #262626;
+    text-align: center;
+    font-size: 18px;
+    list-style: none;
+ }
+ 

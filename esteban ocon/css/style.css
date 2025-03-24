@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    background-color: var(--background-color);
+    height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+}
+
+img {
+    height: 155px;
+    width: 180px;
+    border-radius: 80px;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 120px;
+    width: 330px;
+    height: 350px;
+}
+
+.card .info-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+}
+
+.card .info-profile img {
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.card .numeros-perfil {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.equipe {
+    color: hsl(120, 54%, 5%);
+    font-size: x-large;
+}
+
+.contagem-tipo {
+    color: var(--text-color);
+}
+
+.idade {
+    color: var(--text-color);
+}
