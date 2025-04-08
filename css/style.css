@@ -13,7 +13,25 @@ ul {
     margin-left: 3%;
     list-style: square inside;
     /* border:#000000 double 5px; */
+}
 
+table {
+    border-collapse: collapse;
+}
+
+th {
+    border: 4px outset rgb(39, 1, 1);
+    font-size: 25px;
+    padding: 8px;
+    text-align: center;
+}
+
+td {
+    border: 5px double rgb(5, 5, 5);
+    font-size: 17px;
+    border-width: 2px;
+    text-align: center;
+    padding: 4px;
 }
 
 a{
@@ -23,6 +41,17 @@ a{
 a:hover{
     background-color: #9c9a9d;
     color: rgb(93, 92, 142);
+}
+
+.table-container {
+    margin-left: 15%;
+    margin-bottom: 5%;
+    display: inline-block;
+}
+.table-container-2 {
+    margin-left: 15%;
+    margin-bottom: 5%;
+    display:inline-block;
 }
 
 
@@ -61,6 +90,8 @@ a:hover{
 .RBR {
    color: #262626;
    text-align: center;
+   border: double 3px;
+    border-radius: 10px;
    font-size: 18px;
    list-style: none;
 }
@@ -68,6 +99,8 @@ a:hover{
 .ferrari {
     color: #262626;
     text-align: center;
+    border: double 3px;
+    border-radius: 10px;
     font-size: 18px;
     list-style: none;
  }
@@ -75,11 +108,31 @@ a:hover{
  .mclaren {
     color: #262626;
     text-align: center;
+    border: double 3px;
+    border-radius: 10px;
+    font-size: 18px;
+    list-style: none;
+ }
+
+ .mercedes {
+    color: #262626;
+    text-align: center;
+    border: double 3px;
+    border-radius: 10px;
     font-size: 18px;
     list-style: none;
  }
 
  .alpine {
+    color: #262626;
+    text-align: center;
+    border: double 3px;
+    border-radius: 10px;
+    font-size: 18px;
+    list-style: none;
+ }
+
+ .aston-martin {
     color: #262626;
     text-align: center;
     font-size: 18px;
